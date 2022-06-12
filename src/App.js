@@ -1,16 +1,16 @@
 import React from "react";
+import "./styles.css";
 
 const App = () => {
-  const message = "This is my first variable rendered in JSX!";
-
-  const handleClick = () => {
-    alert("You clicked the message!");
-  }
 
   return (
-    <div>
-      <h1>Hello World</h1>
-      <h2 onClick={handleClick}>{message}</h2>
+    <div className="contact-card">
+      <img src="https://via.placeholder.com/150" alt="profile" />
+      <div className="user-details">
+        <p>Name: Jenny Han</p>
+        <p>Email: Jenny.Han@notreal.com</p>
+        <p>Age: 25</p>
+      </div>
     </div>
   )
 }

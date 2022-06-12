@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <h1>Hello World</h1>
-      <h2>{message}</h2>
+      <h2 onClick={() => alert("You clicked the message!")}>{message}</h2>
     </div>
   )
 }

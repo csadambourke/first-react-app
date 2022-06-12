@@ -32,7 +32,7 @@ const ContactCard = props => {
 
   return (
     <div className="contact-card">
-      <img src={props.avatar} />
+      <img src={props.avatar} alt="avatar" />
       <div className="user-details">
         <p>Name: {props.name}</p>
         <p>Email: {props.email}</p>
